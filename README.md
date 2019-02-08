@@ -59,26 +59,26 @@ If you have your components ready, follow this section to [connect](#connect) th
 
 Specific pins used in this example to connect ESP32 and camera are shown in table below. Pinout can be adjusted to some extent in software. Table below provides two options of pin mapping (last two columns).
 
-| Interface | Camera Pin | Pin Mapping for ESP32 DevKitJ | Alternate ESP32 Pin Mapping |
-| :--- | :---: | :---: | :---: |
-| SCCB Clock | SIOC | IO27 | IO23 |
-| SCCB Data | SIOD | IO26 | IO25 |
-| System Clock | XCLK | IO21 | IO27 |
-| Vertical Sync | VSYNC | IO25 | IO22 |
-| Horizontal Reference | HREF | IO23 | IO26 |
-| Pixel Clock | PCLK | IO22 | IO21 |
-| Pixel Data Bit 0 | D2 | IO4 | IO35 |
-| Pixel Data Bit 1 | D3 | IO5 | IO17 |
-| Pixel Data Bit 2 | D4 | IO18 | IO34 |
-| Pixel Data Bit 3 | D5 | IO19 | IO5 |
-| Pixel Data Bit 4 | D6 | IO36 | IO39 |
-| Pixel Data Bit 5 | D7 | IO39 | IO18 |
-| Pixel Data Bit 6 | D8 | IO34 | IO36 |
-| Pixel Data Bit 7 | D9 | IO35 | IO19 |
-| Camera Reset | RESET | IO2 | IO15 |
-| Camera Power Down | PWDN | *see Note 3* | *see Note 3* |
-| Power Supply 3.3V | 3V3 | 3V3 | 3V3 |
-| Ground | GND | GND | GND |
+| Interface | Camera Pin | Pin Mapping for ESP32 DevKitJ | Alternate ESP32 Pin Mapping | TTGO T-Journal
+| :--- | :---: | :---: | :---: | :--: |
+| SCCB Clock | SIOC | IO27 | IO23 | IO23
+| SCCB Data | SIOD | IO26 | IO25 | IO25
+| System Clock | XCLK | IO21 | IO27 | IO27
+| Vertical Sync | VSYNC | IO25 | IO22 | IO22
+| Horizontal Reference | HREF | IO23 | IO26 | IO26
+| Pixel Clock | PCLK | IO22 | IO21 | IO21
+| Pixel Data Bit 0 | D2 | IO4 | IO35 | IO17
+| Pixel Data Bit 1 | D3 | IO5 | IO17 | IO34
+| Pixel Data Bit 2 | D4 | IO18 | IO34 | IO34
+| Pixel Data Bit 3 | D5 | IO19 | IO5 | IO5
+| Pixel Data Bit 4 | D6 | IO36 | IO39 | IO39
+| Pixel Data Bit 5 | D7 | IO39 | IO18 | IO19
+| Pixel Data Bit 6 | D8 | IO34 | IO36 | IO36
+| Pixel Data Bit 7 | D9 | IO35 | IO19 | IO19
+| Camera Reset | RESET | IO2 | IO15 | IO15
+| Camera Power Down | PWDN | *see Note 3* | *see Note 3* | IO00
+| Power Supply 3.3V | 3V3 | 3V3 | 3V3 | 3V3
+| Ground | GND | GND | GND | GND
 
 Notes:
 
